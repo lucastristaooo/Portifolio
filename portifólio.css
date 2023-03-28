@@ -133,6 +133,7 @@ div > .img{
     left: -441px;
     top: -100px;
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+    background-image: url(WhatsApp\ Image\ 2023-03-28\ at\ 16.28.04.jpeg);
 }
 div > .img:hover{
     translate: -15px 13px;
