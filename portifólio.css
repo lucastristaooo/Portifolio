@@ -36,7 +36,7 @@ header{
     background-color: aqua;
 }
 body{
-    background: black;
+    background: var(--bg-url);
     font: normal 1em Arial;
 }
 span{
@@ -49,7 +49,7 @@ main{
     translate:-50% -50%;
     width: 400px;
     text-align: start;
-    color: white;
+    color: var(--text-color);
 }
 section{
     display: flex;
@@ -72,7 +72,7 @@ section{
 }
 .bloco:hover{
     translate: 5px;
-    border: 2px solid white;
+    border: 2px solid var(--sombra);
 }
 .img{
     position: absolute;
@@ -113,7 +113,7 @@ div{
     translate:-50% -50%;
     width: 400px;
     text-align: start;
-    color: white;
+    color: var(--text-color);
     text-align: justify;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -123,7 +123,7 @@ div > h1{
     top: -60px;
 }
 div > .back{
-    border: 2px solid white;
+    border: 2px solid var(--sombra);
     position: absolute;
     top: -80px;
     left: -455px;
@@ -132,16 +132,97 @@ div > .img{
     position: absolute;
     left: -441px;
     top: -100px;
-    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 1px 10px var(--sombra1);
     background-image: url(WhatsApp\ Image\ 2023-03-28\ at\ 16.28.04.jpeg);
 }
 div > .img:hover{
     translate: -15px 13px;
-    box-shadow: 1px 1px 10px white;
+    box-shadow: 1px 1px 10px var(--sombra);
 }
 .texto{
     padding-top: 8px;
 }
 .texto1{
     padding-bottom: 20px;
+}
+#switch {
+    position: relative;
+    width: 64px;
+    margin: 20px 0px 0px 90px;
+    top: -40px;
+    left: 1290px;
+}
+#switch button {
+    width: 32px;
+    height: 32px;
+    background: var(--a) var(--switch-bg-url) no-repeat center;
+    border: 0;
+    border-radius: 50%;
+  
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+  
+    animation: slide-back 0.4s;
+}
+.light #switch button {
+    animation: slide-in 0.4s forwards;
+}
+#switch button:hover {
+    transition: 0.2s;
+    translate: -1px 1px;
+    box-shadow: 1px 1px 10px var(--a);
+}
+#switch span {
+    display: block;
+    width: 52px;
+    height: 24px;
+    background: var(--azulo);
+    border: 1px solid var(--stroke-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 9999px;
+    box-shadow: 1px 1px 10px var(--sombraab);
+}
+@keyframes slide-in {
+    from {
+      left: 0;
+    }
+    to {
+      left: 35%;
+    }
+}
+@keyframes slide-back {
+    from {
+      left: 35%;
+    }
+    to {
+      left: 0;
+    }
+}
+:root {
+    --bg-url: black;
+    --text-color: white;
+    --sombra: white;
+    --sombra1: rgba(128, 128, 128, 0.5);
+    --switch-bg-url: url(moon-stars.svg);
+    --azulo: aqua;
+    --sombrinha: rgba(0, 0, 0, 0.5);
+    --sombrahover: white;
+    --sombraab: aqua;
+    --a: white;
+}
+.light {
+    --bg-url: white;
+    --text-color: black;
+    --sombra: black;
+    --sombra1: rgba(0, 0, 0, 0.5);
+    --switch-bg-url: url(sun.svg);
+    --azulo: grey;
+    --sombrinha: rgba(0, 0, 0, 0.5);
+    --sombrahover: black;
+    --sombraab: black;
+    --a: aqua;
 }
