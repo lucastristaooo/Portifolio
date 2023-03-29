@@ -130,8 +130,8 @@ div > .back{
 }
 div > .img{
     position: absolute;
-    left: -441px;
-    top: -100px;
+    left: -441.5px;
+    top: -99px;
     box-shadow: 1px 1px 10px var(--sombra1);
     background-image: url(WhatsApp\ Image\ 2023-03-28\ at\ 16.28.04.jpeg);
 }
