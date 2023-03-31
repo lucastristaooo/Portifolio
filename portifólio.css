@@ -174,7 +174,7 @@ div > .img:hover{
     animation: slide-in 0.4s forwards;
 }
 #switch button:hover {
-    transition: 0.2s;
+    transition: 0.5s;
     translate: -1px 1px;
     box-shadow: 1px 1px 10px var(--a);
 }
