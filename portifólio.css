@@ -170,6 +170,16 @@ div > .img:hover{
   
     animation: slide-back 0.4s;
 }
+#seta{
+    top: 590px;
+    left: 945px;
+    color: white;
+}
+#seta1{
+    top: 650px;
+    left: 945px;
+    color: white;
+}
 .light #switch button {
     animation: slide-in 0.4s forwards;
 }
