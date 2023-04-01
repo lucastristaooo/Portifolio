@@ -152,10 +152,6 @@ div > .img:hover{
     top: -40px;
     left: 1290px;
 }
-.espaço{
-    top: 1475px;
-    left: 200px;
-}
 #switch button {
     width: 32px;
     height: 32px;
@@ -176,8 +172,11 @@ div > .img:hover{
     left: 945px;
 }
 #seta1{
-    top: 1220px;
-    left: 945px;
+    top: 1120px;
+    left: 1055px;
+}
+.projetos > h1{
+    left: 98.5px;
 }
 .projetos{
     display: flex;
@@ -185,8 +184,8 @@ div > .img:hover{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    top: 1408px;
-    left: 770px;
+    top: 1260px;
+    left: 890px;
 }
 .light #switch button {
     animation: slide-in 0.4s forwards;
