@@ -172,20 +172,17 @@ div > .img:hover{
     left: 945px;
 }
 #seta1{
-    top: 1120px;
-    left: 1055px;
+    top: 1210px;
+    left: 943.6px;
 }
-.projetos > h1{
-    left: 98.5px;
-}
-.projetos{
+.projetos{  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    top: 1260px;
-    left: 890px;
+    top: 1380px;
+    left: 769.5px;
 }
 .light #switch button {
     animation: slide-in 0.4s forwards;
