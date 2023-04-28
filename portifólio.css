@@ -91,6 +91,9 @@ section{
     left: 215px;
     top: -40px;
 }
+#abc img{
+    width: 25px;
+}
 .back{
     border: 2px solid aqua;
     position: absolute;
