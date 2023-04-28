@@ -61,7 +61,7 @@ section{
     color: black;
     background-color: aqua;
     display: flex;
-    flex-direction: row;
+    flex-direction: flex;
     justify-content: center;
     align-items: center;
     width: 200px;
@@ -85,6 +85,11 @@ section{
     background-size: cover;
     box-shadow: 1px 1px 10px rgba(0, 255, 255, 0.5);
     transition: 0.5s;
+}
+#abc{
+    position: relative;
+    left: 215px;
+    top: -40px;
 }
 .back{
     border: 2px solid aqua;
