@@ -56,6 +56,9 @@ section{
     flex-direction: row;
     gap: 15px;
 }
+div{
+    margin-top: 12px;
+}
 .bloco{
     text-decoration: none;
     color: black;
@@ -176,7 +179,7 @@ div > .img:hover{
     animation: slide-back 0.4s;
 }
 #seta{
-    top: 620px;
+    top: 610px;
     left: 945px;
 }
 #seta1{
