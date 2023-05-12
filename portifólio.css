@@ -84,7 +84,7 @@ div{
     left: 110%;
     width: 400px;
     height: 400px;
-    background: black url(b2ap3_large_profesion-de-programador-web.jpg) center center no-repeat fixed;
+    background: black url(imagens/b2ap3_large_profesion-de-programador-web.jpg) center center no-repeat fixed;
     background-size: cover;
     box-shadow: 1px 1px 10px rgba(0, 255, 255, 0.5);
     transition: 0.5s;
@@ -144,7 +144,7 @@ div > .img{
     left: -443px;
     top: -98px;
     box-shadow: 1px 1px 10px var(--sombra1);
-    background-image: url(WhatsApp\ Image\ 2023-03-28\ at\ 16.28.04.jpeg);
+    background-image: url(imagens/WhatsApp\ Image\ 2023-03-28\ at\ 16.28.04.jpeg);
 }
 div > .img:hover{
     translate: -15px 13px;
@@ -235,7 +235,7 @@ div > .img:hover{
     --text-color: white;
     --sombra: white;
     --sombra1: rgba(128, 128, 128, 0.5);
-    --switch-bg-url: url(moon-stars.svg);
+    --switch-bg-url: url(imagens/moon-stars.svg);
     --azulo: aqua;
     --sombrinha: rgba(0, 0, 0, 0.5);
     --sombrahover: white;
@@ -247,7 +247,7 @@ div > .img:hover{
     --text-color: black;
     --sombra: black;
     --sombra1: rgba(0, 0, 0, 0.5);
-    --switch-bg-url: url(sun.svg);
+    --switch-bg-url: url(imagens/sun.svg);
     --azulo: grey;
     --sombrinha: rgba(0, 0, 0, 0.5);
     --sombrahover: black;
